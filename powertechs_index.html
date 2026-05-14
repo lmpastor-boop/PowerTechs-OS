@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PowerTechs OS — California Workforce Intelligence</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --navy:#1E2761; --ice:#CADCFC; --off:#F4F6FB; --border:rgba(0,0,0,0.08); --muted:#64748B; --dark:#1E293B; }
+body { font-family: -apple-system,'Segoe UI',sans-serif; background: #F0F2F8; color: var(--dark); min-height: 100vh; }
+header { background: var(--navy); padding: 24px 40px; display: flex; align-items: center; justify-content: space-between; }
+header h1 { color: #fff; font-size: 20px; font-weight: 500; letter-spacing: -0.01em; }
+header .sub { color: var(--ice); font-size: 12px; font-family: monospace; margin-top: 4px; }
+.badge { background: rgba(202,220,252,0.18); color: var(--ice); font-size: 11px; padding: 4px 10px; border-radius: 20px; border: 1px solid rgba(202,220,252,0.3); font-family: monospace; }
+main { max-width: 860px; margin: 0 auto; padding: 40px 24px 72px; }
+
+.hero { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 28px 32px; margin-bottom: 24px; }
+.hero p { font-size: 14px; color: var(--muted); line-height: 1.75; margin-bottom: 18px; }
+.cta-btn { display: inline-block; background: var(--navy); color: #fff; font-size: 14px; font-weight: 500; padding: 11px 24px; border-radius: 9px; text-decoration: none; transition: opacity .15s; }
+.cta-btn:hover { opacity: .88; }
+
+.stat-row { display: grid; grid-template-columns: repeat(5,1fr); gap: 10px; margin-bottom: 24px; }
+.stat { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }
+.stat-num { font-size: 26px; font-weight: 500; font-family: monospace; color: var(--navy); line-height: 1; }
+.stat-label { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+.section-head { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .07em; margin-bottom: 12px; }
+
+.tabs-explainer { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 24px; }
+.tab-card { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+.tab-card .tc-num { font-size: 20px; font-weight: 500; font-family: monospace; color: var(--navy); margin-bottom: 6px; }
+.tab-card h3 { font-size: 13px; font-weight: 500; margin-bottom: 6px; }
+.tab-card p { font-size: 12px; color: var(--muted); line-height: 1.6; }
+
+.label-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 24px; }
+.label-card { border-radius: 10px; padding: 12px 14px; border: 1px solid; }
+.label-card .lc-title { font-size: 12px; font-weight: 600; margin-bottom: 4px; }
+.label-card .lc-desc  { font-size: 11px; line-height: 1.5; }
+.lc-hire  { background:#DCFCE7; border-color:#86EFAC; color:#166534; }
+.lc-plan  { background:#DBEAFE; border-color:#93C5FD; color:#1D4ED8; }
+.lc-mon   { background:#FEF3C7; border-color:#FCD34D; color:#92400E; }
+.lc-phase { background:#FEE2E2; border-color:#FCA5A5; color:#991B1B; }
+
+.etd-note { background: #EEF2FF; border: 1px solid #C7D2FE; border-radius: 10px; padding: 16px 18px; margin-bottom: 24px; }
+.etd-note h3 { font-size: 13px; font-weight: 500; color: #3730A3; margin-bottom: 6px; }
+.etd-note p  { font-size: 12px; color: #4338CA; line-height: 1.65; }
+.etd-note .demo-input { display: inline-block; margin-top: 10px; background: #fff; border: 1px solid #C7D2FE; border-radius: 7px; padding: 6px 12px; font-size: 12px; font-family: monospace; color: #3730A3; }
+
+.scope-note { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; font-size: 12px; color: var(--muted); line-height: 1.65; }
+.scope-note strong { color: var(--dark); }
+
+footer { text-align: center; padding: 28px; font-size: 11px; color: var(--muted); font-family: monospace; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>PowerTechs OS</h1>
+    <div class="sub">California Workforce Intelligence · Construction · Energy · Transportation</div>
+  </div>
+  <span class="badge">UC Davis Practicum · April 2026</span>
+</header>
+
+<main>
+
+  <div class="hero">
+    <p>PowerTechs OS is a California workforce intelligence exhibit for three infrastructure sectors. It translates labor-market analysis into practical decision guidance — turning workforce signals into action labels that support hiring, training, and transition decisions.</p>
+    <a href="powertechs_dashboard.html" class="cta-btn">Open the dashboard →</a>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat"><div class="stat-num">60</div><div class="stat-label">Skills Analyzed</div></div>
+    <div class="stat"><div class="stat-num">89</div><div class="stat-label">Emerging Tasks</div></div>
+    <div class="stat"><div class="stat-num">12</div><div class="stat-label">Sub-Sectors</div></div>
+    <div class="stat"><div class="stat-num">10</div><div class="stat-label">Tech Trends</div></div>
+    <div class="stat"><div class="stat-num">36</div><div class="stat-label">Certifications</div></div>
+  </div>
+
+  <p class="section-head">What's inside</p>
+  <div class="tabs-explainer">
+    <div class="tab-card">
+      <div class="tc-num">01</div>
+      <h3>Sector Findings</h3>
+      <p>Action-labeled skills for Construction, Energy, and Transportation. Each sector card shows leading and declining roles with Hire Now / Plan Ahead / Monitor / Phase Out tags.</p>
+    </div>
+    <div class="tab-card">
+      <div class="tc-num">02</div>
+      <h3>Credential Gap</h3>
+      <p>89 emerging tasks identified. 36 certifications in the database. Zero direct matches. This tab shows the technology trends driving the gap and recommended near-term assessment methods.</p>
+    </div>
+    <div class="tab-card">
+      <div class="tc-num">03</div>
+      <h3>ETD Workbench</h3>
+      <p>A live AI workflow. Select a technology trend and industry, then generate candidate emerging task statements. Each output can be accepted, flagged for review, or rejected.</p>
+    </div>
+  </div>
+
+  <p class="section-head">The four action labels</p>
+  <div class="label-grid">
+    <div class="label-card lc-hire"><div class="lc-title">Hire Now</div><div class="lc-desc">Demand is growing and structurally supported. Prioritize recruiting and near-term staffing.</div></div>
+    <div class="label-card lc-plan"><div class="lc-title">Plan Ahead</div><div class="lc-desc">Demand is rising but timing depends on policy or investment. Build pipeline now.</div></div>
+    <div class="label-card lc-mon"><div class="lc-title">Monitor</div><div class="lc-desc">Signal exists but direction or timing is mixed. Keep visible; avoid over-committing.</div></div>
+    <div class="label-card lc-phase"><div class="lc-title">Phase Out</div><div class="lc-desc">Demand is weakening or structurally declining. Redirect workers to adjacent roles.</div></div>
+  </div>
+
+  <div class="etd-note">
+    <h3>ETD Workbench — recommended demo input</h3>
+    <p>The ETD (Emerging Task Discovery) Workbench generates candidate task statements that may be forming before standard taxonomies and certifications capture them. For the best demo experience, use the recommended input below. ETD requires an internet connection — it calls the Anthropic API to generate tasks in real time.</p>
+    <span class="demo-input">Technology: Digital Twins &nbsp;·&nbsp; Industry: Energy Utilities</span>
+  </div>
+
+  <div class="scope-note">
+    <strong>Scope note:</strong> PowerTechs OS is intentionally California-specific. The signals, classifications, and recommendations reflect California labor-market patterns and should not be treated as a national workforce model. ETD outputs are AI-generated candidates and require expert review before entering workforce planning programs.
+  </div>
+
+</main>
+
+<footer>PowerTechs OS · California Workforce Intelligence · UC Davis Practicum · April 2026 · © 2026</footer>
+
+</body>
+</html>
